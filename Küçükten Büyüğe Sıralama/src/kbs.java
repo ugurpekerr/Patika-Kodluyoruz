@@ -6,13 +6,10 @@ public class kbs {
         
         System.out.print("a sayısını Giriniz : ");
         a = inp.nextInt();
-
         System.out.print("b sayısını Giriniz : ");
         b = inp.nextInt();
-
         System.out.print("c sayısını Giriniz : ");
         c = inp.nextInt();
-
         if (a>b && a>c) {
             if (b>c) {
                 System.out.println("c<b<a");
