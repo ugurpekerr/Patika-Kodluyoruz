@@ -1,4 +1,4 @@
-### Merhaba ben Uğur. Şuan burada ucakBileti.java olarak görüntülediğiniz programı Kodluyoruz eğitiminde java101 yolundaki bir ödev için hazırladım.
+# Merhaba ben Uğur. Şuan burada ucakBileti.java olarak görüntülediğiniz programı Kodluyoruz eğitiminde java101 yolundaki bir ödev için hazırladım.
 
 ## Program mesafe, yaş ve yolculuk tipine göre (tek yön, gidiş dönüş) indirimli uçak bileti fiyatını hesaplayıp görüntülüyor. distance, age, travelType gibi değişkenler atadım. Daha sonra indirim oranlarının değişebileceğini düşündüm ve onlara da a, b, c ve d gibi değişkenler atadım. Bilgileri sıfırdan küçük girerseniz veya yolculuk tipini 1 veya 2'den farklı girerseniz "Hatalı veri girdiniz!" gibi bir hatayla karşılasırsınız.
 
