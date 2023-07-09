@@ -7,6 +7,7 @@ public class App {
         Scanner inp = new Scanner(System.in);
         System.out.print("Sayı giriniz : ");
         num = inp.nextInt();
+        inp.close();
 
         for (i = 1; i <= num; ++i) {
             if ((i %4 == 0) || (i %3 == 0)) {
@@ -17,6 +18,5 @@ public class App {
         }
         ort = top / say;
         System.out.println("Ort = " + ort);
-        inp.close();
     }
 }
