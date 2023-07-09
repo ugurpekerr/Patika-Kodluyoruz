@@ -33,5 +33,6 @@ public class CinZodyagi {
         } else if (birthDate %12 == 11) {
             System.out.println("Çin Zodyagı Burcunuz : Koyun");
         }
+        inp.close();
     }   
 }
