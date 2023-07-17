@@ -37,5 +37,6 @@ public class burcBulanProg {
                 System.out.println("Balık Burcusunuz :)");
             }
         }
+        inp.close();
     }
 }
