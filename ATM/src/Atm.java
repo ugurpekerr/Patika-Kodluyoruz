@@ -7,15 +7,15 @@ public class Atm {
         int select;
         int right = 3, balance = 1500;
         while (right >= 0) {
-        System.out.print("Kullanıcı adınızı giriniz :");
+        System.out.print("Kullanici adinizi giriniz :");
         userName = inp.nextLine();
         System.out.print("Sifrenizi giriniz :");
         password = inp.nextLine();
             if (userName.equals("p") && password.equals("d")) {
-                System.out.println("Bankamıza hosgeldiniz. Sizi islemler menüsüne aktarıyorum.");
+                System.out.println("Bankamiza hosgeldiniz. Sizi islemler menüsüne aktarıyorum.");
                 do {
-                    System.out.println("Lütfen yapacagınız islemi seciniz");
-                    System.out.print("1-Para cekme\n2-Para yatırma\n3-Bakiye sorgula\n4-Cıkıs yap\nSeciminiz: ");
+                    System.out.println("Lütfen yapacaginiz islemi seciniz");
+                    System.out.print("1-Para cekme\n2-Para yatirma\n3-Bakiye sorgula\n4-Cıkıs yap\nSeciminiz: ");
                     select = inp.nextInt();
                     switch (select) {
                         case 1:
@@ -24,7 +24,7 @@ public class Atm {
                             if (tutar>balance) {
                                 System.out.println("Bakiye yetersiz.");
                             } else {
-                                System.out.println("Lütfen paranızı alınız.");
+                                System.out.println("Lütfen paranizi aliniz.");
                                 balance -= tutar;
                                 System.out.println("Yeni bakiyeniz: " + balance);
                             }

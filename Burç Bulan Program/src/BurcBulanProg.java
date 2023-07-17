@@ -1,16 +1,13 @@
 import java.util.Scanner;
 
-public class BurcBulanProg {
+public class burcBulanProg {
     public static void main(String[] args) throws Exception {
-        int day, month;
-
         Scanner inp = new Scanner(System.in);
+        int day, month;
         System.out.print("Hangi gün dogdunuz? : ");
         day = inp.nextInt();
-
         System.out.print("Kacıncı ayda dogdunuz? : ");
-        month = inp.nextInt();
-
+        month = inp.nextInt();    
         if (day > 31 || day < 1 || month < 1 || month > 12) {
             System.out.println("Lütfen günü 1 ile 31, ayı ise 1 ile 12 arasında sayılardan seçiniz.");
         } else {
