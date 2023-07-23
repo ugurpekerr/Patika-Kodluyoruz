@@ -3,33 +3,28 @@ import java.util.Scanner;
 public class ekvebsbp {
     public static void main(String[] args) throws Exception {
         Scanner inp = new Scanner(System.in);
-        System.out.print("Sayı giriniz: ");
-        int a = inp.nextInt();
-        System.out.print("Sayı giriniz: ");
-        int b = inp.nextInt();
-        System.out.print("Sayı giriniz: ");
-        int c = inp.nextInt();
-        System.out.print("Sayı giriniz: ");
-        int d = inp.nextInt();
+        int numCount, max=0, min=0, k=0;
+        do {
+            System.out.print("Girilecek sayi adedi: ");
+            numCount = inp.nextInt();
+            if (numCount < 3) {
+                System.out.println("Lütfen iki veya daha fazla sayı giriniz.");
+            }
+        } while (numCount < 3);
 
-        if (a > b && a > c && a > d) {
-            System.out.println("En büyük sayi: " + a);
-        } else if (b > a && b > c && b > d) {
-            System.out.println("En büyük sayi: " + b);
-        } else if (c > a && c > a && c > d) {
-            System.out.println("En büyük sayi: " + c);
-        } else if (d > a && d > b && d > c) {
-            System.out.println("En büyük sayi: " + d);
+        for (int i = 1; i<=numCount; i++) {
+            System.out.print("Enter the number: ");
+            int number = inp.nextInt();
+            if (i == 1) {
+                max = number;
+                min = number;
+            } else if (number > max) {
+                max = number;
+            } else if (number < min) {
+                min = number;
+            }
         }
-
-        if (a < b && a < c && a < d) {
-            System.out.println("En kucuk sayi: " + a);
-        } else if (b < a && b < c && b < d) {
-            System.out.println("En kucuk sayi: " + b);
-        } else if (c < a && c < a && c < d) {
-            System.out.println("En kucuk sayi: " + c);
-        } else if (d < a && d < b && d < c) {
-            System.out.println("En kucuk sayi: " + d);
-        }
+        System.out.println("Max: " + max);
+        System.out.println("Min: " + min);
     }
 }
