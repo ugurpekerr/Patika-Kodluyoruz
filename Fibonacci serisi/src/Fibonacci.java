@@ -18,6 +18,7 @@ public class Fibonacci {
             numberTwo = total;
             }
         }
+        inp.close();
     }
 }
 
