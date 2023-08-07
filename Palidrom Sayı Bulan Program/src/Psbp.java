@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Psbp {
     static boolean isPalidrom(int number) {
         int temp = number, reverseNumber = 0, lastNumber;
