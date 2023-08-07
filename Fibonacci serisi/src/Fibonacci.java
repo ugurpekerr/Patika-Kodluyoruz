@@ -21,5 +21,3 @@ public class Fibonacci {
         inp.close();
     }
 }
-
-
