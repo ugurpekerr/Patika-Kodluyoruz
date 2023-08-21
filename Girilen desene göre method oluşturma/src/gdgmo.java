@@ -21,10 +21,10 @@ public class gdgmo {
     }
     public static void main(String[] args) throws Exception {
         Scanner inp = new Scanner(System.in);
-        System.out.print("Bir sayı giriniz: ");
+        System.out.print("Bir sayi giriniz: ");
         int numberx = inp.nextInt();
         int count=numberx;
         geri(numberx, count);
         inp.close();
-}
+    }
 }
