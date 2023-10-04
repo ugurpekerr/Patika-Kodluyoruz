@@ -26,5 +26,6 @@ public class Degsk {
         
         System.out.println("En yakın minimum değer: " + minClosed);
         System.out.println("En yakın maksimum değer: " + maxClosed);
+        sc.close();
     }
 }
